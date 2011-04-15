@@ -11,7 +11,7 @@ if defined?(ActionMailer)
       end
 
       capybara do
-        include Capybara
+        include Capybara::DSL
       end
 
       included do
